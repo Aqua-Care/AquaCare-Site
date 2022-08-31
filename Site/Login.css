@@ -39,8 +39,8 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #13f0ec;
-    opacity: 0.5;
+    background: #025c5a;
+    opacity: 0.3;
     z-index: 100;
     border-radius: 5px;
   }
@@ -49,7 +49,6 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #002e2d;
     opacity: 0.5;
     z-index: 100;
     transform: rotateY(180deg);
@@ -82,23 +81,11 @@
     align-items: center;
     justify-content: center;
   }
-.cover .front .text .text-1,
-.cover .front .text .text-2{
-    font-size: 26px;
-    font-weight: 600;
-    color: #fff;
-    text-align: center;
-    backface-visibility: hidden;
-  }
-.cover .back .text .text-1,
-.cover .back .text .text-2{
-    transform: rotateY(180deg);
-    
-  }
 
-  .cover .text .text-2{
-    font-size: 15px;
-    font-weight: 500;
+.cover .back {
+    transform: rotateY(180deg);
+    z-index: -1;
+    
   }
   .container .forms{
     height: 100%;
