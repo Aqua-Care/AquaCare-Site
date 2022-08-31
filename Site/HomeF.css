@@ -178,6 +178,22 @@ h4{
     font-size: 18px;
     margin-bottom: 45px;
 }
+.sobre-text .button{
+    background-color: #13f0ec;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .5s;
+    
+}
+.sobre-text .button:hover{
+    background-color: transparent;
+    border: 2px solid #13f0ec;
+    cursor: pointer;
+}
 
 .service{
     background: #101010;
