@@ -356,3 +356,7 @@ footer p:nth-child(2){
     bottom: 35px;
     font-size: 15px;
 }
+
+.logo, .header, .conteudo, .sobre-text, .imgs .titulo, .card, .tcont, .btn-2, .social, .fim{
+    visibility: hidden ;
+} 
