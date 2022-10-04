@@ -7,17 +7,10 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-}
-
 .hero{
     height: 110vh;
     width: 100%;
-    background: #191919;
+    background-color: #191919;
     background-size: cover;
     background-position: center;
 }
@@ -54,7 +47,7 @@ nav ul li{
     display: inline-block;
     padding: 10px 25px;
 
-}   
+}
 
 nav ul li a{
     color: whitesmoke;
@@ -83,22 +76,89 @@ nav ul li a:hover{
     transform: scale(1.2);
 }
 
-section.sobre{
+.conteudo{
     position: relative;
-    height: calc(100% - 200px);
+    top: 30%;
+    text-align: center;
 }
 
-.extras{
+h1{
+    color: #13f0ec;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h4{
+    position: relative;
+   color: #13f0ec;
+   letter-spacing: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #13f0ec;
+    outline: none;
+    border-radius: 25px;
+}
+
+.newslatter form input:last-child{
     position: absolute;
-    bottom: -450px;
-    right: -450px;
-    width: 1000px;
-    height: 1000px;
-    border-radius: 50%;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
     background-color: #13f0ec;
+    color: black;
+
+    top: 6px;
+    right: 10px;
 }
 
-.extras .img{
-    right: 50%;
-    bottom: 50%;
+.newslatter form input:last-child:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    cursor: pointer;
 }
+
+.integrantes{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #101010;
+
+}
+
+.integrantes-text{
+    position: relative;
+    width: 550px;
+    top: 50%;
+    text-align: center;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.integrantes-text h2{
+    color: #fffafa;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
