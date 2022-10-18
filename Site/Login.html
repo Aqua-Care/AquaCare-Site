@@ -10,6 +10,44 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Login.css">
 </head>
+<body>
+
+    <script>
+    // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
+    </script>
+
+    <script>
+
+    var firebaseConfig = {
+        apiKey: "AIzaSyDKddvpgGGWpaURFEWGD82n6f4uLhLQJns",
+        authDomain: "fir-login-d9e7e.firebaseapp.com",
+        projectId: "fir-login-d9e7e",
+        storageBucket: "fir-login-d9e7e.appspot.com",
+        messagingSenderId: "1099097737939",
+        appId: "1:1099097737939:web:7ad93a99dbae6620f1a226"
+      };
+    
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+
+        function cadastrar(){
+
+            var auth = null;
+            firebase.auth().createUserWithEmailAndPassword(email, senha)
+            .then(function(user){
+                alert("Cadastrado com sucesso!");
+                auth = user;
+            }).catch(function(error){
+                alert("Houve uma falha ao se Cadastrar!");
+            });
+
+        }
+
+
+
+      </script>
+
 <div class="container">
     <input type="checkbox" id="flip">
     <div class="cover">
@@ -29,15 +67,15 @@
             <div class="input-boxes">
               <div class="input-box">
                 <i class="fas fa-envelope"></i>
-                <input type="text" placeholder="Digite seu email" required>
+                <input type="text" id="email" placeholder="Digite seu email" required>
               </div>
               <div class="input-box">
                 <i class="fas fa-lock"></i>
-                <input type="password" placeholder="Digite sua senha" required>
+                <input type="password" id="senha" placeholder="Digite sua senha" required>
               </div>
               <div class="text"><a href="#">Esqueceu a senha?</a></div>
               <div class="button input-box">
-                <input type="submit" value="Enviar">
+                <input onclick="login()" type="submit" value="Enviar">
               </div>
               <div class="text sign-up-text">Não tem uma conta? <label for="flip">Cadastre-se agora</label></div>
             </div>
@@ -49,18 +87,18 @@
             <div class="input-boxes">
               <div class="input-box">
                 <i class="fas fa-user"></i>
-                <input type="text" placeholder="Digite seu nome" required>
+                <input type="text" id="nome" placeholder="Digite seu nome" required>
               </div>
               <div class="input-box">
                 <i class="fas fa-envelope"></i>
-                <input type="text" placeholder="Digite seu email" required>
+                <input type="text" id="email" placeholder="Digite seu email" required>
               </div>
               <div class="input-box">
                 <i class="fas fa-lock"></i>
-                <input type="password" placeholder="Digite sua senha" required>
+                <input type="password" id="senha" placeholder="Digite sua senha" required>
               </div>
               <div class="button input-box">
-                <input type="submit" value="Enviar">
+                <input onclick="cadastrar()" type="submit" value="Enviar">
               </div>
               <div class="text sign-up-text">Já tem uma conta? <label for="flip">Logue agora</label></div>
             </div>
