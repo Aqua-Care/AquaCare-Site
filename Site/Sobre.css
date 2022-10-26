@@ -8,7 +8,7 @@
 }
 
 .hero{
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     background-color: #191919;
     background-size: cover;
@@ -132,10 +132,29 @@ h4{
     cursor: pointer;
 }
 
+.Wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.Wave svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 194px;
+}
+
+.Wave .shape-fill {
+    fill: #13F0EC;
+}
 .integrantes{
     width: 100%;
     padding: 100px 0px;
-    background-color: #101010;
+    background-color: #13f0ec;
 
 }
 
@@ -156,9 +175,8 @@ h4{
 }
 
 .integrantes-text h2{
-    color: #fffafa;
+    color: white;
     font-size: 55px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
-
