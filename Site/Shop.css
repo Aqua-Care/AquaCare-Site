@@ -8,7 +8,7 @@
 }
 
 .hero{
-    height: 120vh;
+    height: 100vh;
     width: 100%;
     background-color: #191919;
     background-size: cover;
@@ -102,7 +102,7 @@ body{
     font-weight: 600;
 }
 .logo span{
-    color: var(--dark);
+    color: var(--white);
 }
 .navigation ul{
     display: flex;
@@ -165,16 +165,59 @@ body{
     margin-bottom: 4rem;
     color: var(--white)
 }
-.home-btn{
-    padding: 15px 45px;
-    background: var(--red);
-    color: var(--white);
-    border-radius: 10px;
-    font-weight: 700;
-    transition: all 0.5s;
-}
+
 .home-btn:hover{
     background: #13f0ec;
+}
+
+.custom-shape-divider-bottom-1667323610 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1667323610 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 177px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1667323610 .shape-fill {
+    fill: #13F0EC;
+}
+.produto{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #13f0ec;
+
+}
+
+.produto-text{
+    position: relative;
+    width: 550px;
+    top: 30%;
+    text-align: center;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.produto-text h2{
+    color: white;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
 }
 .home-img img{
     width: 100%;
