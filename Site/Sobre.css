@@ -313,5 +313,21 @@ a{
     height: 100%;
     background-color: #191919;
     fill: #191919;
+}   
+
+.sobre-text{
+    position: relative;
+    width: 550px;
+    top: 50%;
+    text-align: center;
+    left: 28%;
 }
+
+.sobre-text h2{
+    color: white;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
 
