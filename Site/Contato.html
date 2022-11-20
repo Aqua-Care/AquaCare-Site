@@ -10,32 +10,48 @@
     <title>Contato</title>
 </head>
 <body>
+
+  <div class="hero">
+    <nav class="header">
+      <h2 class="logo">Aqua<span>Care</span></h2>
+      <ul>
+          <li><a href="HomeF.html">Home</a></li>
+          <li><a href="Sobre.html">Sobre nós</a></li>
+          <li><a href="Shop.html">Produto</a></li>
+          <li><a href="Contato.html">Contato</a></li>
+      </ul>
+      <a href="Sobre.html" class="btn">Saiba Mais</a>
+  </nav>
+
     <section>
+
             <div class="forms">
                 <div class="form-content">
                   <div class="login-form">
                     <div class="title">Contato</div>
-                  <form action="https://api.staticforms.xyz/submit" method="post">
+                  <form action=".Contato.php" method="post">
                     <div class="input-boxes">
                       <div class="input-box">
                         <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Digite seu Nome" autocomplete="off" required>
+                        <input type="text" name="nome" placeholder="Digite seu Nome" autocomplete="off" required>
                       </div>
                       <div class="input-box">
                         <i class="fas fa-envelope"></i>
-                        <input type="text" placeholder="Digite seu Email" autocomplete="off" required>
+                        <input type="text" name="email" placeholder="Digite seu Email" autocomplete="off" required>
                       </div>
                       <textarea style="resize: none" name="message" cols="50" rows="10"  placeholder="Digite sua mensagem" ></textarea>
                       <div class="button input-box">
                         <input type="submit" value="Enviar">
                       </div>
                     </div>
-
+                  </div>
+                  </div>
+                  </div>
             
-            <input type="hidden" name="accessKey" value="d6cac3f8-960c-413a-9277-0df33298660d">
             <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/PContato.html">
             
         </form>
     </section>
+
 </body>
 </html>
