@@ -24,7 +24,7 @@ nav{
 }
 
 .logo{
-  color: #13f0ec;
+  color: #11b8b5;
   font-size: 35px;
   letter-spacing: 1px;
   cursor: pointer;
@@ -44,19 +44,20 @@ span{
 nav ul li{
   list-style-type: none;
   display: inline-block;
-  padding: 10px 25px;
+  padding: 10px 30px;
 
 }
 
 nav ul li a{
-  color: whitesmoke;
+  color: white;
   text-decoration: none;
   font-weight: bold;
+  font-size: 20px;
   text-transform: capitalize;
 }
 
 nav ul li a:hover{
-  color: #13f0ec;
+  color: #11b8b5;
   transition: .5s;
 }
 
@@ -76,7 +77,7 @@ section{
 
 input:focus,
 input:valid{
-  border-color: #13f0ec;
+  border-color: #11b8b5;
 }
 
 form textarea{
@@ -95,14 +96,14 @@ form textarea{
 
 form textarea:focus,
 form textarea:valid{
-  border-color: #13f0ec;
+  border-color: #11b8b5;
 }
 form button{
     padding: 15px;
     cursor: pointer;
     font-size: 16px;
     margin-bottom: 20px;
-    background-color: #13f0ec;
+    background-color: #11b8b5;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -118,7 +119,7 @@ form button{
     bottom: 0;
     height: 3px;
     width: 25px;
-    background: #13f0ec;
+    background: #11b8b5;
   }
 .title:before{
     width: 20px;  
@@ -138,7 +139,7 @@ form button{
   
 form button:hover{
     background-color: transparent;
-    border: 2px solid #13f0ec;
+    border: 2px solid #11b8b5;
 }
 
 .forms .form-content .title{
@@ -154,7 +155,7 @@ form button:hover{
     bottom: 0;
     height: 3px;
     width: 25px;
-    background: #13f0ec;
+    background: #11b8b5;
   }
   .forms .signup-form  .title:before{
     width: 20px;  
@@ -183,11 +184,11 @@ form button:hover{
   }
   .form-content .input-box input:focus,
   .form-content .input-box input:valid{
-    border-color: #13f0ec;
+    border-color: #11b8b5;
   }
   .form-content .input-box i{
     position: absolute;
-    color: #13f0ec;
+    color: #11b8b5;
     font-size: 17px;
   }
   .forms .form-content .text{
@@ -197,7 +198,7 @@ form button:hover{
   }
   .forms .form-content .text a{
     text-decoration: none;
-    color: #13f0ec;
+    color: #11b8b5;
   }
   .forms .form-content .text a:hover{
     text-decoration: underline;
@@ -208,17 +209,17 @@ form button:hover{
   }
   .forms .form-content .button input{
     color: #fff;
-    background: #13f0ec;
+    background: #11b8b5;
     border-radius: 6px;
     padding: 0;
     cursor: pointer;
     transition: all 0.4s ease;
   }
   .forms .form-content .button input:hover{
-    background: #13f0ec;
+    background: #11b8b5;
   }
   .forms .form-content label{
-    color: #13f0ec;
+    color: #11b8b5;
     cursor: pointer;
   }
   .forms .form-content label:hover{
@@ -231,19 +232,15 @@ form button:hover{
   }
   .forms .form-content .button input{
     color: #fff;
-    background: #13f0ec;
+    background: #11b8b5;
     border-radius: 6px;
     padding: 0;
     cursor: pointer;
     transition: all 0.4s ease;
   }
   .forms .form-content .button input:hover{
-    background: #13f0ec;
+    background: #11b8b5;
   }
-
-
-
-
 
 .main{
    display: flex;
@@ -263,7 +260,7 @@ form button:hover{
     margin-bottom: 50px;
 }
 .btn{
-    background-color: #13f0ec;
+    background-color: #11b8b5;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -271,10 +268,11 @@ form button:hover{
     padding: 9px 22px;
     border-radius: 30px;
     transition: .5s;
+    opacity: 0;
 }
 
 .btn:hover{
     background-color: transparent;
-    border: 2px solid #13f0ec;
+    border: 2px solid #11b8b5;
     cursor: pointer;
 }
