@@ -10,7 +10,7 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(https://maladeaventuras.com/wp-content/uploads/2016/11/DSC_0116.jpg) ;
+    background-image: url(Foto/Projeto.2.png) ;
     background-size: cover;
     background-position: center;
 }
@@ -23,9 +23,9 @@ nav{
     padding-left: 8%;
     padding-right: 8%;
 }
-
+    
 .logo{
-    color: #13f0ec;
+    color: #11b8b5;
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
@@ -45,24 +45,25 @@ span{
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 10px 25px;
+    padding: 10px 30px;
 
 }
 
 nav ul li a{
-    color: whitesmoke;
+    color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
     text-transform: capitalize;
 }
 
 nav ul li a:hover{
-    color: #13f0ec;
+    color: #11b8b5;
     transition: .5s;
 }
 
 .btn{
-    background-color: #13f0ec;
+    background-color: #11b8b5;
     color: whitesmoke;
     text-decoration: none;
     border: 2px solid transparent;
@@ -70,6 +71,7 @@ nav ul li a:hover{
     padding: 10px 25px;
     border-radius: 30px;
     transition: transform .5s;
+    opacity: 0;
 }
 
 .btn:hover{
@@ -84,13 +86,13 @@ nav ul li a:hover{
 }
 
 h1{
-    color: #13f0ec;
+    color: #11b8b5;
     margin: 20px 0px 20px;
     font-size: 75px;
 }
 
 h4{
-   color: #13f0ec;
+   color: #11b8b5;
    letter-spacing: 6px;
     font-size: 20px;
     font-weight: bold;
@@ -106,7 +108,7 @@ h4{
     display: inline-block;
     width: 100%;
     padding: 14px 130px 14px 15px;
-    border: 2px solid #13f0ec;
+    border: 2px solid #11b8b5;
     outline: none;
     border-radius: 25px;
 }
@@ -118,7 +120,7 @@ h4{
     border: none;
     padding: 10px 30px;
     border-radius: 30px;
-    background-color: #13f0ec;
+    background-color: #11b8b5;
     color: black;
 
     top: 6px;
@@ -144,8 +146,16 @@ h4{
 
 .sobre-text{
     width: 550px;
-
 }
+
+.sobre .sobre-text h2::first-letter{
+    text-transform: uppercase;
+}
+
+.sobre .sobre-text h2{
+    text-transform: lowercase;
+}
+
 
 .main{
     width: 1130px;
@@ -179,7 +189,7 @@ h4{
     margin-bottom: 45px;
 }
 .sobre-text .button{
-    background-color: #13f0ec;
+    background-color: #11b8b5;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -191,7 +201,7 @@ h4{
 }
 .sobre-text .button:hover{
     background-color: transparent;
-    border: 2px solid #13f0ec;
+    border: 2px solid #11b8b5;
     cursor: pointer;
 }
 
@@ -200,6 +210,22 @@ h4{
     width: 100%;
     padding: 100px 0px;
 
+}
+
+.box .card h5::first-letter{
+    text-transform: uppercase;
+}
+
+.box .card h5{
+    text-transform: lowercase;
+}
+
+.service .titulo h2::first-letter{
+    text-transform: uppercase;
+}
+
+.service .titulo h2{
+    text-transform: lowercase;
 }
  
 .titulo{
@@ -218,8 +244,8 @@ h4{
 }
 
 .card{
-    height: 365px;
-    width: 335px;
+    height: 450px;
+    width: 400px;
     padding: 20px 35px;
     background: #191919;
     border-radius: 20px;
@@ -248,10 +274,11 @@ h4{
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
+    text-align: justify;
 }
 
 .card .button{
-    background-color: #13f0ec;
+    background-color: #11b8b5;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -263,7 +290,7 @@ h4{
 
 .card .button:hover{
     background-color: transparent;
-    border: 2px solid #13f0ec;
+    border: 2px solid #11b8b5;
     cursor: pointer;
 }
 
@@ -285,7 +312,7 @@ h4{
 }
 
 .contate-eu .btn-2{
-    background-color: #13f0ec;
+    background-color: #11b8b5;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -297,8 +324,16 @@ h4{
 
 .contate-eu .btn-2:hover{
     background-color: transparent;
-    border: 2px solid #13f0ec;
+    border: 2px solid #11b8b5;
     cursor: pointer;
+}
+
+.contate-eu p::first-letter{
+    text-transform: uppercase;
+}
+
+.contate-eu p{
+    text-transform: lowercase;
 }
 
 footer{
@@ -337,7 +372,7 @@ footer p:nth-child(2){
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #13f0ec;
+    background: #11b8b5;
     border-radius: 50%;
     margin: 20px 10px;
     color: white;
@@ -352,7 +387,7 @@ footer p:nth-child(2){
 
 .fim{
     position: absolute;
-    color: #13f0ec;
+    color: #11b8b5;
     bottom: 35px;
     font-size: 15px;
 }
