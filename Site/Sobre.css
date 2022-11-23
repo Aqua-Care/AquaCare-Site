@@ -29,44 +29,47 @@ nav{
 }
 
 .logo{
-    color: #13f0ec;
+    color: #11b8b5;
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
 }
 
 .logo span{
-    color: whitesmoke;
+    color: white;
 }
 
 .conteudo span{
-    color: whitesmoke;
-}
-span{
     color: #fffafa;
 }
 
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 10px 25px;
+    padding: 10px 30px;
 
 }
 
+.hero p{
+    top: 25%;
+    letter-spacing: 2px;
+}
+
 nav ul li a{
-    color: whitesmoke;
+    color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
     text-transform: capitalize;
 }
 
 nav ul li a:hover{
-    color: #13f0ec;
+    color: #11b8b5;
     transition: .5s;
 }
 
 .btn{
-    background-color: #13f0ec;
+    background-color: #11b8b5;
     color: whitesmoke;
     text-decoration: none;
     border: 2px solid transparent;
@@ -74,6 +77,7 @@ nav ul li a:hover{
     padding: 10px 25px;
     border-radius: 30px;
     transition: transform .5s;
+    opacity: 0;
 }
 
 .btn:hover{
@@ -82,23 +86,38 @@ nav ul li a:hover{
 
 .conteudo{
     position: relative;
-    top: 30%;
+    top: 25%;
     text-align: center;
 }
 
 h1{
-    color: #13f0ec;
+    color: #11b8b5;
     margin: 20px 0px 20px;
     font-size: 75px;
 }
 
 h4{
     position: relative;
-   color: #13f0ec;
+   color: #11b8b5;
    letter-spacing: 7px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+}
+
+.hero p{
+    max-width: 600px;
+    position: relative;
+    text-align: center;
+    color: #fffafa;
+    font-size: 17px;
+    text-align: justify;
+    left: 34%;
+    letter-spacing: 2px;
+}
+
+p span{
+    color: #11b8b5;
 }
 
 .newslatter form{
@@ -111,7 +130,7 @@ h4{
     display: inline-block;
     width: 100%;
     padding: 14px 130px 14px 15px;
-    border: 2px solid #13f0ec;
+    border: 2px solid #11b8b5;
     outline: none;
     border-radius: 25px;
 }
@@ -123,7 +142,7 @@ h4{
     border: none;
     padding: 10px 30px;
     border-radius: 30px;
-    background-color: #13f0ec;
+    background-color: #11b8b5;
     color: black;
 
     top: 6px;
@@ -153,12 +172,12 @@ h4{
 }
 
 .Wave .shape-fill {
-    fill: #13F0EC;
+    fill: #11b8b5;
 }
 .integrantes{
     width: 100%;
     padding: 100px 0px;
-    background-color: #13f0ec;
+    background-color: #11b8b5;
 
 }
 
@@ -179,10 +198,18 @@ h4{
 }
 
 .integrantes-text h2{
-    color: white;
+    color: #191919;
     font-size: 55px;
     text-transform: capitalize;
     margin-bottom: 20px;
+}
+
+.integrantes h2::first-letter{
+    text-transform: uppercase;
+}
+
+.integrantes h2{
+    text-transform: lowercase;
 }
 
 img {
@@ -306,7 +333,7 @@ a{
 }
 
 .custom-shape-divider-top-1668084026 .shape-fill {
-    fill: #13F0EC;
+    fill: #11b8b5;
 }
 
 .Sobre{
@@ -330,10 +357,16 @@ a{
     margin-bottom: 20px;
 }
 
+.sobre-text h2::first-letter{
+    text-transform: uppercase;
+}
+
+.sobre-text h2{
+    text-transform: lowercase;
+}
 
 .cards{
     margin: 20px 0;
-  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -351,8 +384,9 @@ a{
     padding: 35px;
     background-color: #3f3f3f;
     text-align: justify;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    box-shadow: 10px 10px 10px #101010;
     position: relative;
+    border-radius: 2%;
 }
 
 .card::before{
@@ -361,8 +395,8 @@ a{
     top: 0;
     right: 0;
     border: 20px solid transparent;
-    border-top: 20px solid #13F0EC;
-    border-right: 20px solid #13F0EC;
+    border-top: 20px solid #11b8b5;
+    border-right: 20px solid #11b8b5;
 }
 
 /** Icon **/
@@ -378,7 +412,7 @@ a{
 
 /** Content **/
 .content {
-    height: 215px;
+    height: 350px;
     overflow: hidden;
     position: relative;
 }
@@ -389,7 +423,6 @@ a{
     bottom: 0;
     width: 100%;
     height: 100px;
-    background: linear-gradient(transparent, #3f3f3f);
 }
 
 .content h2 {
@@ -405,34 +438,13 @@ a{
     position: absolute;
     height: 2px;
     width: 40px;
-    background-color: #13F0EC;
-    
+    background-color: #11b8b5;
     bottom: 4px;
     border-radius: 100px;
 }
 
 .content p {
     color: white;
-}
-
-/** Read More/Less Button **/
-#read_button {
-    border: none;
-    padding: 10px;
-    border-radius: 2px;
-    margin-top: 15px;
-    background-color: #13F0EC;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.2s ease-in-out;
-}
-
-#read_button:hover {
-    background-color: transparent;
-    color: #13F0EC;
-    transition: all 0.2s ease-in-out;
 }
 
 /** Active **/
@@ -462,7 +474,7 @@ a{
 }
 
 .contate-eu .btn-2{
-    background-color: #13f0ec;
+    background-color: #11b8b5;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -474,8 +486,16 @@ a{
 
 .contate-eu .btn-2:hover{
     background-color: transparent;
-    border: 2px solid #13f0ec;
+    border: 2px solid #11b8b5;
     cursor: pointer;
+}
+
+.contate-eu p::first-letter{
+    text-transform: uppercase;
+}
+
+.contate-eu p{
+    text-transform: lowercase;
 }
 
 footer{
@@ -514,7 +534,7 @@ footer p:nth-child(2){
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #13f0ec;
+    background: #11b8b5;
     border-radius: 50%;
     margin: 20px 10px;
     color: white;
@@ -529,9 +549,7 @@ footer p:nth-child(2){
 
 .fim{
     position: absolute;
-    color: #13f0ec;
+    color: #11b8b5;
     bottom: 35px;
     font-size: 15px;
 }
-
-
