@@ -26,7 +26,7 @@ nav{
 }
 
 .logo{
-    color: #13f0ec;
+    color: #11b8b5;
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
@@ -46,15 +46,17 @@ span{
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 10px 25px;
+    padding: 10px 30px;
 
 }
 
 nav ul li a{
-    color: whitesmoke;
+    color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
     text-transform: capitalize;
+
 }
 
 nav ul li a:hover{
@@ -62,8 +64,28 @@ nav ul li a:hover{
     transition: .5s;
 }
 
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 800px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.img1{
+    margin-right: 50px;
+}
+
 .btn{
-    background-color: #13f0ec;
+    background-color: #11b8b5;
     color: whitesmoke;
     text-decoration: none;
     border: 2px solid transparent;
@@ -71,6 +93,7 @@ nav ul li a:hover{
     padding: 10px 25px;
     border-radius: 30px;
     transition: transform .5s;
+    opacity: 0;
 }
 
 .btn:hover{
@@ -78,7 +101,7 @@ nav ul li a:hover{
 }
 
 :root{
-    --blue:#13f0ec;
+    --blue:#11b8b5;
     --white:#fff;
     --dark:#1e1c2a;
 }
@@ -176,8 +199,10 @@ body{
     margin-right: 70px;
 }
 
-.imgs img{
+.imgs1 .img1{
     border-radius: 3%;
+    height: 500px;
+    width: 900px;
 }
 
 .custom-shape-divider-bottom-1667323610 {
@@ -198,13 +223,13 @@ body{
 }
 
 .custom-shape-divider-bottom-1667323610 .shape-fill {
-    fill: #13F0EC;
+    fill: #11b8b5;
 }
 .produto{
     width: 100%;
     padding: 100px 0px;
-    background-color: #13f0ec;
-    fill: #13F0EC;
+    background-color: #11b8b5;
+    fill: #11b8b5;
 }
 
 .produto-text{
@@ -212,7 +237,15 @@ body{
     width: 550px;
     top: 30%;
     text-align: center;
-    background-color: #13F0EC;
+    background-color: #11b8b5;
+}
+
+.main .produto-text h2::first-letter{
+    text-transform: uppercase;
+}
+
+.main .produto-text h2{
+    text-transform: lowercase;
 }
 
 .main{
@@ -222,7 +255,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #13F0EC;
+    background-color: #11b8b5;
 }
 
 .produto img{
@@ -250,7 +283,7 @@ body{
     font-size: 55px;
     text-transform: capitalize;
     margin-bottom: 20px;
-    background-color: #13F0EC;
+    background-color: #11b8b5;
 }
 
 .produto-text p{
@@ -261,7 +294,7 @@ body{
     margin-bottom: 45px;
     font-weight: 500;
     text-align: justify;
-    background-color: #13F0EC;
+    background-color: #11b8b5;
 }
 
 .produto img{
@@ -271,8 +304,8 @@ body{
 .sobre-produto{
     width: 100%;
     height: 100%;
-    background-color: #13F0EC;
-    fill: #13F0EC;
+    background-color: #11b8b5;
+    fill: #11b8b5;
 }   
 
 .sobre-produto-text{
@@ -280,7 +313,7 @@ body{
     width: 550px;
     top: 50%;
     text-align: center;
-    background-color: #13F0EC;
+    background-color: #11b8b5;
 }
 
 .sobre-produto-text h2{
@@ -288,7 +321,7 @@ body{
     font-size: 55px;
     text-transform: capitalize;
     margin-bottom: 20px;
-    background-color: #13F0EC;
+    background-color: #11b8b5;
 }
 
 .sobre-produto-text p{
@@ -300,7 +333,7 @@ body{
     text-shadow: #fffafa;
     font-weight: 500;
     text-align: justify;
-    background-color: #13F0EC;
+    background-color: #11b8b5;
 }
 
 .sobre-produto img{
@@ -326,7 +359,7 @@ body{
 }
 
 .custom-shape-divider-top-1668728704 .shape-fill {
-    fill: #13F0EC;
+    fill: #11b8b5;
 }
 
 .shop{
@@ -356,6 +389,14 @@ body{
     font-size: 55px;
     text-transform: capitalize;
     margin-bottom: 20px;
+}
+
+.shop-text h2::first-letter{
+    text-transform: uppercase;
+}
+
+.shop-text h2{
+    text-transform: lowercase;
 }
 
 .shop-text p{
@@ -413,7 +454,7 @@ body{
     outline: 0;
   }
   .formulario .campo:focus { 
-      border: 2px solid #13F0EC; 
+      border: 2px solid #11b8b5; 
       color: #13F0EC;
   }
   .formulario textarea {
@@ -424,7 +465,7 @@ body{
   }
   .formulario .botao {
     width: 100%;
-    background:#13F0EC;
+    background:#11b8b5;
     color: #ffffff;
     border-radius:5px;
     border:0;
@@ -459,7 +500,7 @@ body{
 }
 
 .contate-eu .btn-2{
-    background-color: #13f0ec;
+    background-color: #11b8b5;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -471,8 +512,16 @@ body{
 
 .contate-eu .btn-2:hover{
     background-color: transparent;
-    border: 2px solid #13f0ec;
+    border: 2px solid #11b8b5;
     cursor: pointer;
+}
+
+.contate-eu p::first-letter{
+    text-transform: uppercase;
+}
+
+.contate-eu p{
+    text-transform: lowercase;
 }
 
 footer{
@@ -513,7 +562,7 @@ footer p:nth-child(2){
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #13f0ec;
+    background: #11b8b5;
     border-radius: 50%;
     margin: 20px 10px;
     color: white;
@@ -528,7 +577,7 @@ footer p:nth-child(2){
 
 .fim{
     position: absolute;
-    color: #13f0ec;
+    color: #11b8b5;
     bottom: 35px;
     font-size: 15px;
     background-color: #101010;
